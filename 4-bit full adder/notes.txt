@@ -1,0 +1,3 @@
+To implement a 4-bit full adder, you need to instantiate 4 of the 1-bit full adder modules in a top module.
+
+To instantiate a module, syntax: Module_name Instance_name (Port_Association_List)
