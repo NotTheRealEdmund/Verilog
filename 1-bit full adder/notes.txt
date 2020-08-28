@@ -1,0 +1,3 @@
+For a 1 bit full adder, to see the results,
+you can use A, B, cin as sw[0], sw[1], and sw[2],
+and use S and cout as led[0] and led[1].
