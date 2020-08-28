@@ -1,0 +1,15 @@
+Cathode side:
+Use [6:0] seg to change the 7-segment value.
+Left most bit represents G segment.
+Right most bit represents A segment.
+1 will turn off that segment.
+0 will turn on that segment.
+So seg = 7'b1000000 will give the hexadecimal number 0.
+
+Anode side:
+Use [7:0] an to change which 7-segments are shown and which ones are not shown.
+Left most bit represents the left most 7-segment.
+Right most bit represents the right most 7-segment.
+1 will turn off that 7-segment.
+0 will turn on that 7-segment.
+So an = 8'b11111110 will only show the right most 7-segment.
