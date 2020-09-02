@@ -1,0 +1,6 @@
+A carry-lookahead adder(CLA) is similar to a ripple carry adder except that it uses more complicated logic/hardware.
+In return, is it able to calculate the carry bit from a pre-processed form of inputs.
+This makes CLA faster than ripple carry adder since there are less delays.
+The ripple effect is avoided within a block, but the ripple carry effect between blocks are still present. 
+Still, the delays are significantly lower.
+Each CLA block is 4-bits, and we can use 8 such units to handle 32 bits.
