@@ -24,13 +24,13 @@
 module seven_segment(
     input clk,
     output reg [6:0] seg,
-    output [7:0] an
+	output [3:0] an
     );
 	
     reg [26:0] fast_count;
     reg [3:0] counter;
     
-    assign an = 8'b11111110;        // always only show the right most 7-segment 
+    assign an = 4'b1110;        // always only show the right most 7-segment 
     
     always @(posedge clk) begin
         fast_count <= fast_count + 1;
